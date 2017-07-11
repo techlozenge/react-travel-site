@@ -1,0 +1,55 @@
+
+#cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+#spain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../assets/images/spain_flag.svg");
+  border: 1px solid black;
+}
+
+#italy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../assets/images/italy_flag.svg");
+  border: 1px solid black;
+}
+
+#aruba {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../assets/images/aruba_flag.svg");
+  border: 1px solid black;
+}
+
+#chile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../assets/images/chile_flag.svg");
+  border: 1px solid black;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  margin:5px;
+  padding-bottom: 5%;
+  background-color: white;
+  color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
