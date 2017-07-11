@@ -54,6 +54,7 @@ import React, { Component } from 'react';
                     <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>
+            <hr className="style-eight" />
                 </div>
             </div>
 
